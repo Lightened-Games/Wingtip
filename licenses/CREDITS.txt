@@ -1,0 +1,21 @@
+Six Inches - asset library (raw sources for everything in Content/)
+
+THIRD-PARTY
+- Poly Haven texture sets (CC0 1.0, public domain), https://polyhaven.com/license
+    red_brick_03, clay_roof_tiles_02, white_plaster_rough_01, rustic_stone_wall, leafy_grass, farm_soil, forest_leaves_02
+    Files: Textures/PolyHaven/<set>/ (1K diffuse, nor_dx, arm). Unmodified.
+- Barlow Condensed (Light, Medium), Jeremy Tribby, SIL Open Font License 1.1
+    https://fonts.google.com/specimen/Barlow+Condensed  Files: Fonts/BarlowCondensed/ (+ OFL.txt). Unmodified.
+
+ORIGINAL (made for this project; CC0)
+- Models/Generated/SixInches/*.gltf    fighter, flying bomb, prop disc, Kent buildings (houses, cottage, black barn,
+                                       oast house, church, terrace, hall), tree, hedge, barrage balloon, cable, flak pit,
+                                       markers, 16 x 12 km terrain, horizon skirt. Built by Generators/generate_meshes.py
+                                       and Generators/generate_layout.py.
+- Textures/Generated/SixInches/*       ground map + mask, far fields, aircraft paint atlases (camo, invasion stripes,
+                                       roundels, codes), smoke/flash flipbooks, prop blur, soft dot.
+                                       Built by Generators/generate_layout.py, generate_meshes.py, generate_textures.py.
+- Audio/Generated/SixInches/*.wav      every sound in the game: synthesised at runtime by Source/SixInches/Audio/SISynth.cpp;
+                                       these WAVs are rendered from the same code (-SIDumpAudio=lib).
+
+No Fab, Epic, Megascans, Mixamo or marketplace content anywhere in the project.
